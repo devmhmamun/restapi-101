@@ -1,0 +1,52 @@
+GET http://127.0.0.1:4000/help
+
+###
+POST http://127.0.0.1:4000
+Content-Type: application/json
+
+{
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "status": "Right-hand Badsman",
+    "rank": 2
+}
+
+###
+GET http://127.0.0.1:4000
+
+###
+GET http://127.0.0.1:4000/wElBQAX0P
+
+###
+GET http://127.0.0.1:4000/ntIhzmbfF
+
+###
+GET http://127.0.0.1:4000/ntIhzmbfd
+
+###
+PATCH http://127.0.0.1:4000/wElBQAX0P
+Content-Type: application/json
+
+{
+    "name": "Masrafi Martaza",
+    "country": "Bangladesh"
+}
+
+
+###
+PUT http://127.0.0.1:4000/ntIhzmbfF
+Content-Type: application/json
+
+{
+    "name": "Sakib-al Hasan",
+    "country": "Bangladesh",
+    "status": "Left-handed Badsman",
+    "rank": 1
+}
+
+###
+DELETE http://127.0.0.1:4000/wElBQAX0P
+
+
+###
+GET http://api.github.com/users/devmhmamun
